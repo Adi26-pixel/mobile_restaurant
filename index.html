@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Restaurant Menu</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-text">
+        <h1>Jimmy's Diner</h1>
+        <p>The best burgers and pizza in town</p>
+      </div>
+    </header>
+    <main class="conatiner">
+      <section id="menu-items">
+        <!-- menu item -->
+      </section>
+
+      <section class="order-container" id="order-container">
+        <!-- order conatiner -->
+      </section>
+
+      <section class="payment-container" id="payment-container">
+        <p class="modal-title">Enter card details</p>
+        <form>
+          <input
+            type="text"
+            id="card-name"
+            class="card-name"
+            placeholder="Enter your name"
+            required
+          />
+          <input
+            type="number"
+            class="card-number"
+            placeholder="Enter card number"
+            required
+          />
+          <input
+            type="text"
+            class="card-cvv"
+            placeholder="Enter CVV"
+            required
+          />
+          <button type="submit" id="pay-btn">Pay</button>
+        </form>
+      </section>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
