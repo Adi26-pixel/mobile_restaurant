@@ -31,11 +31,17 @@ p {
 
 .item-name {
   font-size: 28px;
+  margin: 8px 0;
 }
 
 .item-ingredients {
   font-size: 16px;
   color: #8b8b8b;
+  margin: 8px 0;
+}
+
+.item-price {
+  font-size: 20px;
   margin: 8px 0;
 }
 
@@ -45,9 +51,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 46px;
-  border: 1px solid #d2d2d2;
+  margin: 0 auto;
+  border-bottom: 1px solid #d2d2d2;
   padding: 51px 0;
+  max-width: 508px;
 }
 
 .menu-info {
@@ -66,17 +73,21 @@ p {
 }
 
 .add-btn {
-  border: 50%;
+  border-radius: 100%;
   height: 50px;
   width: 50px;
   border: 1.5px solid #dedede;
   background-color: #ffffff;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
 }
 
 .order-section-container {
   display: flex;
   flex-direction: column;
-  margin: 46px;
+  margin: 35px auto;
+  max-width: 508px;
 }
 
 .order-header {
@@ -85,7 +96,7 @@ p {
   margin: 45px 0 62px;
 }
 
-.order-header p {
+.order-header > p {
   font-size: 28px;
 }
 
@@ -104,11 +115,11 @@ p {
   align-items: center;
 }
 
-.order-item p {
+.order-item > p {
   font-size: 28px;
 }
 
-.order-price p {
+.order-price > p {
   font-size: 20px;
 }
 
@@ -149,6 +160,9 @@ p {
   height: 60px;
   width: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  max-width: 508px;
+  margin-top: 25px;
 }
 
 /* ====== Layout ====== */
@@ -205,7 +219,7 @@ p {
   font-size: 22px;
 }
 
-.completeed-order-text p {
+.completed-order-txt > p {
   color: #065f46;
   font-size: 32px;
   text-align: center;
